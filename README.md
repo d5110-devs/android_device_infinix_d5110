@@ -23,11 +23,11 @@ Device Tree for compiling CyanogenMod 12.1
 
 Note:
 Before you compile, please take note of these
-- I have the 1GB RAM version
+- We have the 1GB RAM version
 - It came with Android One
-- I used kernel and boot.img details from Android One ROM but the partitions size are from Infinix ROM
-- If you have 2GB RAM version, you may need to adapt the code
-- Or if you want to use Android One partitions scheme, you need to adapt.
+- We used kernel and boot.img details from Android One ROM but the partitions size are from Infinix ROM
+- If you have 2GB RAM version, you have to change [this](https://github.com/d5110-devs/android_device_infinix_d5110/blob/cm-13.0/device_d5110_infinix.mk#L141) line, changing `phone-xhdpi-1024-dalvik-heap.mk` to `phone-xhdpi-2048-dalvik-heap.mk`
+- Or if you want to use Android One partitions scheme, you need to change [these](https://github.com/d5110-devs/android_device_infinix_d5110/blob/cm-13.0/BoardConfig.mk#L36-#L39) lines.
 
 
 Work in progress ...
