@@ -18,7 +18,7 @@ Specifications:
 ![Infinix](http://infinixmobility.com/wp-content/uploads/images/x510-kv-1.jpg "Infinix Hot 2")
 
 
-Device Tree for compiling CyanogenMod 12.1
+Device Tree for compiling CyanogenMod 13.0
 
 
 Note:
