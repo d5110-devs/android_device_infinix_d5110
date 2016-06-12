@@ -109,9 +109,9 @@ PRODUCT_PACKAGES += \
     asec_helper
 
 # Bluetooth
-PRODUCT_PACKAGES += \
-    libbt-vendor \
-    
+#PRODUCT_PACKAGES += \
+#    libbt-vendor \
+
 PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
