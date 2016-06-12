@@ -72,7 +72,9 @@ TARGET_RECOVERY_FSTAB := device/infinix/d5110_infinix/rootdir/root/fstab.mt6580
 
 TARGET_OTA_ASSERT_DEVICE := d5110,d5110_infinix,Infinix_X510,Infinix_X510_sprout,"Infinix D5110"
 # This is what we need to compile TWRP
-DEVICE_RESOLUTION := 720x1280
+RECOVERY_VARIANT := twrp
+#DEVICE_RESOLUTION := 720x1280
+TW_THEME := portrait_hdpi
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
