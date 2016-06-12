@@ -113,13 +113,6 @@ TARGET_CPU_MEMCPY_OPT_DISABLE := true
 BOARD_SEPOLICY_DIRS := \
        device/infinix/d5110_infinix/sepolicy
 
-BOARD_SEPOLICY_UNION := \
-       device.te \
-       app.te \
-       system.te \
-       netd.te \
-       file_contexts
-
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
 # RIL
