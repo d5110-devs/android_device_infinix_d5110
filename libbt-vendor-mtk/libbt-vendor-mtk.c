@@ -22,7 +22,7 @@
 #include <pthread.h>
 #include <fcntl.h>
 #include <errno.h>
-#include <bt_vendor_lib.h>
+/**#include <bt_vendor_lib.h>**/
 #include <bt_hci_lib.h>
 #include <bt_hci_bdroid.h>
 #include <utils.h>
