@@ -70,7 +70,7 @@ TARGET_PREBUILT_RECOVERY_KERNEL := device/infinix/d5110_infinix/kernel
 
 TARGET_RECOVERY_FSTAB := device/infinix/d5110_infinix/rootdir/root/fstab.mt6580
 
-TARGET_OTA_ASSERT_DEVICE := d5110,d5110_infinix,Infinix_X510,Infinix_X510_sprout,"Infinix D5110"
+TARGET_OTA_ASSERT_DEVICE := d5110,d5110_infinix,X510
 # This is what we need to compile TWRP
 RECOVERY_VARIANT := twrp
 #DEVICE_RESOLUTION := 720x1280
